@@ -1,14 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
     <title>Mon Jeu de Calcul</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>1 + 1 = 
-        <input type="number" id="reponse" placeholder="?"> 
-        <span id="resultat"></span>
-    </h1>
-    <button onclick="verifier()">Valider</button>
+    <h1>Mon Quiz de Calcul</h1>
+    <div class="calcul">
+        2 + 3 = <input type="number" id="reponse1"> <span id="symbole1"></span>
+    </div>
+    <div class="calcul">
+        5 + 5 = <input type="number" id="reponse2"> <span id="symbole2"></span>
+    </div>
+    <div class="calcul">
+        10 - 4 = <input type="number" id="reponse3"> <span id="symbole3"></span>
+    </div>
+    <br>
+    <button onclick="toutVerifier()">Vérifier mes réponses</button>
     <script src="script.js"></script>
 </body>
 </html>
+
