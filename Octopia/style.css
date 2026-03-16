@@ -1,9 +1,52 @@
+body{
+    background-color: beige;
+    background-image: url(./images/nature-landscape-illustration-with-a-cute-and-colorful-design-suitable-for-kids-background-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
 #titre {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 180%;
-    color: rgb(0, 170, 255); 
-    margin-bottom: 2%;
+    color: rgb(0, 170, 255);
+    
+   
+    position: relative;
+    top: -40px; 
+    
+   
+    margin-bottom: -30px; 
 }
 #logo{
     width: 10%;
 }
+ul{list-style-type: none;}
+#lien{
+    background-color: rgb(17, 196, 232);
+    padding: 0.1%;
+    
+}
+#lien a{
+text-decoration: none;      
+    color: white;          
+    padding: 1%;        
+    margin-right: 15px; 
+    font-size: 150%;     
+}
+#lien a:hover {
+    color: rgb(0, 170, 255);      
+    background-color:  white;
+    text-decoration: underline;  }   
+    
+    #intro{margin-left: 5%;
+    margin-top: 3%; 
+font-family:'Trebuchet MS', sans-serif;
+color: red;
+
+}
+
+    #color {
+color: rgb(0, 136, 255);}
