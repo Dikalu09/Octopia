@@ -1,0 +1,48 @@
+<header>
+    <div class="tutu"> Octopia</div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Jeux</a></li>
+            <li><a href="#">Crédits</a></li>
+        </ul>
+    </nav>
+</header>
+
+header{
+    background:#8e96b9;
+}
+
+.tutu{
+    font-size:28px;
+    padding:15px;
+    color:#7a4d00;
+}
+
+nav{
+    background:#0c2d57;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+}
+
+nav li{
+    padding:12px 20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav li:hover{
+    background:#153e73;
+}
+
+
