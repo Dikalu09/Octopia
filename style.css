@@ -1,0 +1,143 @@
+body{
+    background-color: beige;
+    background-image: url(./images/nature-landscape-illustration-with-a-cute-and-colorful-design-suitable-for-kids-background-free-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#titre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 180%;
+    color: rgb(0, 170, 255);
+    
+   
+    position: relative;
+    top: 0%; 
+    
+   
+    margin-bottom: 3%; 
+}
+#logo{
+    width: 10%;
+}
+
+header{
+    background:#8e96b9;
+}
+
+.tutu{
+    font-size:28px;
+    padding:15px;
+    color:#7a4d00;
+}
+
+nav {
+    background-color: #0c2d57; 
+    width: 100%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+nav h3 {
+    margin: 0;
+    font-size: 150%;
+}
+#lien a:hover {
+    color: rgb(241, 241, 242);      
+    background-color:  rgb(10, 198, 166);
+    text-decoration: underline;  } 
+    
+#intro{margin-left: 5%;
+    margin-top: 3%; 
+font-family:'Trebuchet MS', sans-serif;
+color: red;
+
+}
+
+ #color {
+color: rgb(0, 136, 255);}
+#tablo{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+    background-color: wheat;
+    margin-right: 80%;
+    border: 2px solid black;}
+    input {
+        width: 110px;
+        padding: 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid #bbb;
+        border-radius: 4px;
+        text-align: center;
+    }
+    
+    .symbole {
+        min-width: 100px;
+        font-size: 130%;
+    }
+    
+    button {
+        padding: 10px 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 6px;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    hr {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        border: 1px dashed #ccc;
+    }
+#container{ margin-left: 40%;}
+#containere{
+    margin-left: 30%;}  
+
+
+    #cephalopode{
+
+width: 70%;
+
+
+    }
+    h2{
+
+
+        color: blue;
+    }
+
+    #imgprincipal{
+
+
+        width: 60%;
+        
+        position: absolute;left: 35%;top: 40%;
+    }
+    #credit {
+
+        padding: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: wheat;
+    }
